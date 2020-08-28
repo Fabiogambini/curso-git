@@ -1,0 +1,17 @@
+--- Iniciar projeto:
+git init
+git config --global user.name "Seu Nome"
+git config --global user.email "Seu Email"
+
+ -- Realizar commit 
+git add . 
+git commit -m "msg"
+
+--Ver status atual do projeto e log:
+• git status
+• git log
+• git log --oneline
+
+-- Retornar ao estado do Commit atual:
+git clean -df
+git checkout -- .
