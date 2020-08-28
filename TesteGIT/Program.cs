@@ -7,6 +7,8 @@ namespace TesteGIT
         static void Main(string[] args)
         {
             Console.WriteLine("Olá Mundo!");
+
+            Console.WriteLine("atualizado");
         }
     }
 }
